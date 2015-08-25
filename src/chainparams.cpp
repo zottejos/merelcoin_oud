@@ -138,7 +138,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x3576c49c69399d1ee4a087c84cc63ce7f139a5100e8bb3868b297a9d845511f6"));
 
         vSeeds.push_back(CDNSSeedData("seed1.merel.mobi", "seed1.merel.mobi"));
         vSeeds.push_back(CDNSSeedData("seed2.merel.mobi", "seed2.merel.mobi"));
