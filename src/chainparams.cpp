@@ -152,8 +152,8 @@ public:
         genesis.nNonce   = 2084524493;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2"));
-        assert(genesis.hashMerkleRoot == uint256("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
 
         vSeeds.push_back(CDNSSeedData("merelcointools.com", "dnsseed.merelcointools.com"));
         vSeeds.push_back(CDNSSeedData("merelcoinpool.org", "dnsseed.merelcoinpool.org"));
