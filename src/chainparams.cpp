@@ -108,7 +108,7 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
+        nTargetTimespan = 1 * 60; // 3.5 days
         nTargetSpacing = 1 * 30; // 2.5 minutes
 
         /**
