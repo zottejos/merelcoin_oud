@@ -54,7 +54,7 @@ static void convertSeed6(std::vector<CAddress> &vSeedsOut, const SeedSpec6 *data
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        (0, uint256("0x"))
+        (0, uint256("0xe197eb1d83773116d2bef8d0f1901405be7cdeb26eadffb4ce3d7c861f70fbee"))
         ;
 static const Checkpoints::CCheckpointData data = {
         &mapCheckpoints,
@@ -134,10 +134,10 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1440496391;
         genesis.nBits    = 0x1e0ffff0;
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 480177;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0xe197eb1d83773116d2bef8d0f1901405be7cdeb26eadffb4ce3d7c861f70fbee"));
         assert(genesis.hashMerkleRoot == uint256("0xf61155849d7a298b86b38b0e10a539f1e73cc64cc887a0e41e9d39699cc47635"));
             
         vSeeds.push_back(CDNSSeedData("seed1.merel.mobi", "seed1.merel.mobi"));
@@ -194,10 +194,10 @@ public:
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1317798646;
-        genesis.nNonce = 0;
+        genesis.nTime = 1440496391;
+        genesis.nNonce = 480177;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x"));
+        assert(hashGenesisBlock == uint256("0xe197eb1d83773116d2bef8d0f1901405be7cdeb26eadffb4ce3d7c861f70fbee"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -251,9 +251,9 @@ public:
         nTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1296688602;
+        genesis.nTime = 1440496391;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 0;
+        genesis.nNonce = 480177;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
         assert(hashGenesisBlock == uint256("0x530827f38f93b43ed12af0b3ad25a288dc02ed74d6d7857862df51fc56c416f9"));
