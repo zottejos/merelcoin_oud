@@ -140,11 +140,9 @@ public:
         assert(hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
 
-        vSeeds.push_back(CDNSSeedData("merelcointools.com", "dnsseed.merelcointools.com"));
-        vSeeds.push_back(CDNSSeedData("merelcoinpool.org", "dnsseed.merelcoinpool.org"));
-        vSeeds.push_back(CDNSSeedData("xurious.com", "dnsseed.merel.xurious.com"));
-        vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
-        vSeeds.push_back(CDNSSeedData("weminemnc.com", "dnsseed.weminemnc.com"));
+        vSeeds.push_back(CDNSSeedData("seed1.merel.mobi", "seed1.merel.mobi"));
+        vSeeds.push_back(CDNSSeedData("seed2.merel.mobi", "seed2.merel.mobi"));
+        vSeeds.push_back(CDNSSeedData("seed3.merel.mobi", "seed3.merel.mobi"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(50);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
