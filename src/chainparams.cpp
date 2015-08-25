@@ -252,7 +252,7 @@ public:
         nTargetSpacing = 2.5 * 60; // 2.5 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         genesis.nTime = 1440496391;
-        genesis.nBits = 0x207fffff;
+        genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 480177;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 19444;
