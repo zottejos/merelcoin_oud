@@ -1,7 +1,7 @@
 Merelcoin Core integration/staging tree
 =====================================
 
-https://merelcoin.org
+https://coin.merel.mobi
 
 What is Merelcoin?
 ----------------
