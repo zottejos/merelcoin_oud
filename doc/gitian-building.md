@@ -281,9 +281,9 @@ Clone the git repositories for merelcoin and gitian and then checkout the merelc
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/merelcoin-project/merelcoin.git
+git clone https://github.com/zottejos/merelcoin.git
 cd merelcoin
-git checkout v${VERSION}
+git checkout
 cd ..
 ```
 
